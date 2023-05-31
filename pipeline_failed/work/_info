@@ -1,0 +1,525 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modelsim/single_cycle_cpu
+vAdder
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :Me?5SlNQiMH_A:=Dmk^83
+I@hT@0kQh19c@Z5oCChScM0
+Z1 dD:/modelsim/pipeline
+Z2 w1667741183
+Z3 8D:/modelsim/pipeline/alu.v
+Z4 FD:/modelsim/pipeline/alu.v
+L0 258
+Z5 OL;L;10.4;61
+Z6 !s108 1667894650.888000
+Z7 !s107 D:/modelsim/pipeline/alu.v|
+Z8 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/alu.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@adder
+valu
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 _nd2o=G`R6ZQfG9V`X[]10
+In]z:12Yb]bPf7`Tj1HMgJ1
+R1
+R2
+R3
+R4
+L0 1
+R5
+R6
+R7
+R8
+!i113 0
+R9
+valu_control
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 =cfdaVAi:kIKGK?DejeSd0
+IC;hH`P``_g::l1PK?Kfno0
+R1
+Z10 w1667893334
+Z11 8D:/modelsim/pipeline/control.v
+Z12 FD:/modelsim/pipeline/control.v
+L0 168
+R5
+Z13 !s108 1667894651.754000
+Z14 !s107 define.v|D:/modelsim/pipeline/control.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/control.v|
+!i113 0
+R9
+vbranch_judge
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 8[eHe^o4X]GUB:7zjiWak1
+IRhPoQmR215nU`U2H=Q37_3
+R1
+w1667751092
+8D:/modelsim/pipeline/branch_judge.v
+FD:/modelsim/pipeline/branch_judge.v
+L0 2
+R5
+!s108 1667894650.953000
+!s107 D:/modelsim/pipeline/branch_judge.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/branch_judge.v|
+!i113 0
+R9
+vcla_4
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 jgCH[_Bek<le[<[DdZDFK2
+I7`7RFe8>J>SkEn_lB`KP=3
+R1
+R2
+R3
+R4
+L0 292
+R5
+R6
+R7
+R8
+!i113 0
+R9
+vcla_adder32
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 4:^zHe@KP5PZ`]M@jDPB21
+IH?3;>XMlDXG;zf[PP?RzF3
+R1
+R2
+R3
+R4
+L0 308
+R5
+R6
+R7
+R8
+!i113 0
+R9
+vcontrol
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 iX3Gok5>IbR[GHS7IO5KY0
+Ii>=5M=ZITOfdfLY[6GcA02
+R1
+R10
+R11
+R12
+L0 2
+R5
+R13
+R14
+R15
+!i113 0
+R9
+vdata_memory
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 5MOQk:JfaKED7KO0I=T_k0
+IdG5`O:>;4RFi_X84mAahj2
+R1
+w1667714513
+8D:/modelsim/pipeline/data_memory.v
+FD:/modelsim/pipeline/data_memory.v
+L0 4
+R5
+!s108 1667894651.708000
+!s107 define.v|D:/modelsim/pipeline/data_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/data_memory.v|
+!i113 0
+R9
+vdatapath
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 9z?e_aR05J?Z_6LP60K:50
+IfZ5gMVLN@X3zEb[`m@GZQ2
+R1
+w1667894647
+8D:/modelsim/pipeline/datapath.v
+FD:/modelsim/pipeline/datapath.v
+L0 1
+R5
+!s108 1667894651.907000
+!s107 D:/modelsim/pipeline/datapath.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/datapath.v|
+!i113 0
+R9
+vex_mem_regs
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 d0NfNiCf7Y<c];;MJMFk61
+ICNEcU867k[3JUKFE^0V[b0
+R1
+w1667804512
+8D:/modelsim/pipeline/ex_mem_regs.v
+FD:/modelsim/pipeline/ex_mem_regs.v
+L0 2
+R5
+!s108 1667894651.015000
+!s107 define.v|D:/modelsim/pipeline/ex_mem_regs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/ex_mem_regs.v|
+!i113 0
+R9
+vex_stage
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 <LZoJNnM5I3DVolc@Lo2o1
+ImZJ4@A8_V=:`l>?UCaHkS0
+R1
+w1667894391
+8D:/modelsim/pipeline/ex_stage.v
+FD:/modelsim/pipeline/ex_stage.v
+L0 1
+R5
+!s108 1667894651.860000
+!s107 D:/modelsim/pipeline/ex_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/ex_stage.v|
+!i113 0
+R9
+vid_ex_regs
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2hP=E`EH0GnY?CDf3:GkW0
+IROTG;]?<eN2e:fmP4Xd]02
+R1
+w1667893070
+8D:/modelsim/pipeline/id_ex_regs.v
+FD:/modelsim/pipeline/id_ex_regs.v
+L0 2
+R5
+!s108 1667894651.808000
+!s107 define.v|D:/modelsim/pipeline/id_ex_regs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/id_ex_regs.v|
+!i113 0
+R9
+vid_stage
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 KGFR[VkW;O2zGAA>jzV0F3
+ILXaocWG=LLz?<Y5W3c]<d0
+R1
+w1667889928
+8D:/modelsim/pipeline/id_stage.v
+FD:/modelsim/pipeline/id_stage.v
+L0 1
+R5
+!s108 1667894651.063000
+!s107 D:/modelsim/pipeline/id_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/id_stage.v|
+!i113 0
+R9
+vif_id_regs
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :>IB=aUkJR8hX;SClIoPF3
+I]2UJ4m3@POjiKTHDJNeVQ0
+R1
+w1667894620
+8D:/modelsim/pipeline/if_id_regs.v
+FD:/modelsim/pipeline/if_id_regs.v
+L0 7
+R5
+!s108 1667894651.109000
+!s107 define.v|D:/modelsim/pipeline/if_id_regs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/if_id_regs.v|
+!i113 0
+R9
+vif_stage
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2oYX>YcK^RcV^YHMho_gL2
+I9JzzHQ^_5APiNeoYzk=?[3
+R1
+w1667894311
+8D:/modelsim/pipeline/if_stage.v
+FD:/modelsim/pipeline/if_stage.v
+L0 6
+R5
+!s108 1667894651.155000
+!s107 D:/modelsim/pipeline/if_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/if_stage.v|
+!i113 0
+R9
+vinstr_decode
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 zC6Z1IV]ZkIZjYAXlUGWE0
+IaQ5E>z1fL<KJFNCIU<YUG3
+R1
+w1667749413
+8D:/modelsim/pipeline/instr_decode.v
+FD:/modelsim/pipeline/instr_decode.v
+L0 5
+R5
+!s108 1667894651.199000
+!s107 define.v|D:/modelsim/pipeline/instr_decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/instr_decode.v|
+!i113 0
+R9
+vinstr_memory
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 dIgR>>k]Dbi7jH;3U]i<o2
+IGBm=]W]:RRR>Yj`AW?=mP2
+R1
+w1667710994
+8D:/modelsim/pipeline/instr_memory.v
+FD:/modelsim/pipeline/instr_memory.v
+L0 3
+R5
+!s108 1667894651.248000
+!s107 D:/modelsim/pipeline/instr_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/instr_memory.v|
+!i113 0
+R9
+vmain_control
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 d__lgcRRG@Xib7`<LmMHV3
+Ifj1JAUD?aTCI@lObJNQzM1
+R1
+R10
+R11
+R12
+L0 80
+R5
+R13
+R14
+R15
+!i113 0
+R9
+vmem_wb_regs
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ao8Tc97eI8[fJcdoo?ZQM0
+IeY:I=]@O6NLz27Ne_WC=12
+R1
+w1667833580
+8D:/modelsim/pipeline/mem_wb_regs.v
+FD:/modelsim/pipeline/mem_wb_regs.v
+L0 2
+R5
+!s108 1667894651.294000
+!s107 define.v|D:/modelsim/pipeline/mem_wb_regs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/mem_wb_regs.v|
+!i113 0
+R9
+vmux
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 _FAZEmX?Y^K`S:zc2=gWa3
+ILPfc]6aF2`Ch?]AL1N:Q<2
+R1
+w1667736411
+8D:/modelsim/pipeline/mux.v
+FD:/modelsim/pipeline/mux.v
+L0 2
+R5
+!s108 1667894651.342000
+!s107 D:/modelsim/pipeline/mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/mux.v|
+!i113 0
+R9
+vpc_reg
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 SASSVS[AT5J@>j;6EggjR1
+IMzeDe[0mPUYQZP2jZ;I]?0
+R1
+w1667892935
+8D:/modelsim/pipeline/pc_reg.v
+FD:/modelsim/pipeline/pc_reg.v
+L0 6
+R5
+!s108 1667894651.389000
+!s107 define.v|D:/modelsim/pipeline/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/pc_reg.v|
+!i113 0
+R9
+vregisters
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 gPQa>hHhHg1`[]m]M7TMj3
+I;_aj4hl3e@QCzKKO2M=];0
+R1
+w1667809766
+8D:/modelsim/pipeline/registers.v
+FD:/modelsim/pipeline/registers.v
+L0 6
+R5
+!s108 1667894651.435000
+!s107 define.v|D:/modelsim/pipeline/registers.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/registers.v|
+!i113 0
+R9
+vriscv
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?HV<88]X]hX7J5k[lPbTC0
+IRA3TIB@6bB51G1ohG8@>D0
+R1
+w1667892947
+8D:/modelsim/pipeline/riscv.v
+FD:/modelsim/pipeline/riscv.v
+L0 2
+R5
+!s108 1667894651.481000
+!s107 D:/modelsim/pipeline/riscv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/riscv.v|
+!i113 0
+R9
+vriscv_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 5c=_32=0[LWA<CACM[RcE0
+Ifk7:GlTa0A4nS:QB_YLi52
+R1
+w1667749483
+8D:/modelsim/pipeline/riscv_top.v
+FD:/modelsim/pipeline/riscv_top.v
+L0 2
+R5
+!s108 1667894651.532000
+!s107 D:/modelsim/pipeline/riscv_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/riscv_top.v|
+!i113 0
+R9
+vShifter
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 FQ4HB_f[Z6Yo]k]Fn_lQC0
+I:OfcG3O0=IRo_Tn5QSMlW3
+R1
+R2
+R3
+R4
+L0 106
+R5
+R6
+R7
+R8
+!i113 0
+R9
+n@shifter
+vtb_riscv_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 5P_e=3Go77_jJ>KcIRIf61
+IKP?l3z2CH8?2LcCkGG:kg1
+R1
+w1667803807
+8D:/modelsim/pipeline/tb_riscv_top.v
+FD:/modelsim/pipeline/tb_riscv_top.v
+L0 5
+R5
+!s108 1667894651.577000
+!s107 D:/modelsim/pipeline/tb_riscv_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/tb_riscv_top.v|
+!i113 0
+R9
+vwb_stage
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 jbDane[fYWVa4j[Q;c:AA1
+IFAjlO6>;RjAmAZZ57]U`R1
+R1
+w1667805072
+8D:/modelsim/pipeline/wb_stage.v
+FD:/modelsim/pipeline/wb_stage.v
+L0 2
+R5
+!s108 1667894651.624000
+!s107 D:/modelsim/pipeline/wb_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/modelsim/pipeline/wb_stage.v|
+!i113 0
+R9

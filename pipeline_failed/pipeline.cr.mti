@@ -1,0 +1,157 @@
+D:/modelsim/pipeline/control.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/control.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module control
+-- Compiling module main_control
+-- Compiling module alu_control
+
+Top level modules:
+	control
+
+} {} {}} D:/modelsim/pipeline/if_stage.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/if_stage.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module if_stage
+
+Top level modules:
+	if_stage
+
+} {} {}} D:/modelsim/pipeline/data_memory.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/data_memory.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} D:/modelsim/pipeline/alu.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/alu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module alu
+-- Compiling module Shifter
+-- Compiling module Adder
+-- Compiling module cla_4
+-- Compiling module cla_adder32
+
+Top level modules:
+	alu
+
+} {} {}} D:/modelsim/pipeline/mux.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/mux.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} D:/modelsim/pipeline/define.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/define.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} D:/modelsim/pipeline/ex_mem_regs.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/ex_mem_regs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ex_mem_regs
+
+Top level modules:
+	ex_mem_regs
+
+} {} {}} D:/modelsim/pipeline/instr_decode.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/instr_decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module instr_decode
+
+Top level modules:
+	instr_decode
+
+} {} {}} D:/modelsim/pipeline/riscv.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/riscv.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} D:/modelsim/pipeline/registers.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} D:/modelsim/pipeline/pc_reg.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/pc_reg.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} D:/modelsim/pipeline/riscv_top.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/riscv_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module riscv_top
+
+Top level modules:
+	riscv_top
+
+} {} {}} D:/modelsim/pipeline/id_ex_regs.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/id_ex_regs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module id_ex_regs
+
+Top level modules:
+	id_ex_regs
+
+} {} {}} D:/modelsim/pipeline/if_id_regs.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/if_id_regs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module if_id_regs
+
+Top level modules:
+	if_id_regs
+
+} {} {}} D:/modelsim/pipeline/wb_stage.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/wb_stage.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module wb_stage
+
+Top level modules:
+	wb_stage
+
+} {} {}} D:/modelsim/pipeline/branch_judge.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/branch_judge.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module branch_judge
+
+Top level modules:
+	branch_judge
+
+} {} {}} D:/modelsim/pipeline/tb_riscv_top.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/tb_riscv_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_riscv_top
+
+Top level modules:
+	tb_riscv_top
+
+} {} {}} D:/modelsim/pipeline/mem_wb_regs.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/mem_wb_regs.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mem_wb_regs
+
+Top level modules:
+	mem_wb_regs
+
+} {} {}} D:/modelsim/pipeline/datapath.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/datapath.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/modelsim/pipeline/id_stage.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/id_stage.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module id_stage
+
+Top level modules:
+	id_stage
+
+} {} {}} D:/modelsim/pipeline/instr_memory.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/instr_memory.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module instr_memory
+
+Top level modules:
+	instr_memory
+
+} {} {}} D:/modelsim/pipeline/ex_stage.v {1 {vlog -work work -vopt -stats=none D:/modelsim/pipeline/ex_stage.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ex_stage
+
+Top level modules:
+	ex_stage
+
+} {} {}}
