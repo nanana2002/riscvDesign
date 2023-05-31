@@ -1,0 +1,94 @@
+D:/modelsim/single_cycle_cpu/instr_memory.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/instr_memory.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module instr_memory
+
+Top level modules:
+	instr_memory
+
+} {} {}} D:/modelsim/single_cycle_cpu/control.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/control.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module control
+-- Compiling module main_control
+-- Compiling module alu_control
+
+Top level modules:
+	control
+
+} {} {}} D:/modelsim/single_cycle_cpu/mux.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/mux.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} D:/modelsim/single_cycle_cpu/data_memory.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/data_memory.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} D:/modelsim/single_cycle_cpu/alu.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/alu.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module alu
+-- Compiling module Shifter
+-- Compiling module Adder
+-- Compiling module cla_4
+-- Compiling module cla_adder32
+
+Top level modules:
+	alu
+
+} {} {}} D:/modelsim/single_cycle_cpu/instr_decode.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/instr_decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module instr_decode
+
+Top level modules:
+	instr_decode
+
+} {} {}} D:/modelsim/single_cycle_cpu/define.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/define.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} D:/modelsim/single_cycle_cpu/riscv.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/riscv.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} D:/modelsim/single_cycle_cpu/registers.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} D:/modelsim/single_cycle_cpu/pc_reg.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/pc_reg.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} D:/modelsim/single_cycle_cpu/riscv_top.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/riscv_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module riscv_top
+
+Top level modules:
+	riscv_top
+
+} {} {}} D:/modelsim/single_cycle_cpu/branch_judge.v {1 {vlog -work work -vopt -stats=none D:/modelsim/single_cycle_cpu/branch_judge.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module branch_judge
+
+Top level modules:
+	branch_judge
+
+} {} {}} D:/modelsim/single_cycle_cpu/tb_riscv_top.v {1 {vlog -work work -vopt -stats=none {D:\modelsim\single_cycle_cpu\tb_riscv_top.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_riscv_top
+
+Top level modules:
+	tb_riscv_top
+
+} {} {}}
